@@ -1,0 +1,77 @@
+.instruction
+  max-width: 320px
+  height: 969px
+  @extend .gradient
+  &__container
+    @extend .container
+    height: 969px
+    position: relative
+  &__inner
+    width: 284px
+    position: absolute
+    height: 969px
+    z-index: 2
+    top: 0
+  &__title
+    position: relative
+    text-transform: uppercase
+    font-family: $second-font
+    font-size: 24px
+    line-height: 30px
+    text-align: left
+    color: #FFFFFF
+    margin-top: 22px
+    margin-bottom: 46px
+    padding-bottom: 30px
+    &:after
+      content: ""
+      position: absolute
+      bottom: 0
+      height: 5px
+      width: 250px
+      left: 5px
+      background: #DBAB00
+  &__block
+    width: 284px
+    display: flex
+    justify-content: flex-start
+    margin-bottom: 20px
+    &-img
+      width: 60px
+      height: 46px
+      img
+        height: 100%
+        width: auto
+    &-content
+      width: 180px
+      font-family: $main-font
+      font-style: normal
+      font-weight: 900
+      font-size: 14px
+      line-height: 16px
+      color: #FFFFFF
+      margin-left: 15px
+
+  &__text
+    width: 266px
+    box-sizing: border-box
+    border: 1px solid #DD9E23
+    font-family: $second-font
+    font-size: 11px
+    line-height: 12px
+    text-align: center
+    color: #FFFFFF
+    margin-top: 26px
+    padding: 9px 22px
+    margin-bottom: 40px
+  &__sale
+    width: 302px
+    margin-left: -18px
+    font-family: $second-font
+    font-size: 24px
+    line-height: 27px
+    text-align: center
+    color: #FF0000
+    padding: 25px 7px 32px 7px
+    background: #F5E586
+    @extend .sale

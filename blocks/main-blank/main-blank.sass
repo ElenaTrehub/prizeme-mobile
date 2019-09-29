@@ -1,0 +1,204 @@
+.main-blank
+  max-width: 320px
+  margin: 45px 0
+  border: 5px solid #DBAB00
+  box-sizing: border-box
+  padding-bottom: 19px
+  &__title
+    width: 100%
+    margin-top: 29px
+    margin-bottom: 21px
+    font-family: $main-font
+    font-style: normal
+    font-weight: bold
+    font-size: 22px
+    line-height: 23px
+    text-align: center
+    color: #000000
+  &__client
+    width: 284px
+    display: flex
+    justify-content: flex-start
+    .jq-checkbox
+      margin-left: 14px
+      margin-right: 17px
+      border: none
+      color: $red-color
+      background: none
+      display: inline-block
+    .jq-checkbox.checked .jq-checkbox__div
+      border-bottom: 2px solid $red-color
+      border-left: 2px solid $red-color
+    &-text
+      width: 240px
+      font-family: $main-font
+      font-style: normal
+      font-weight: normal
+      font-size: 14px
+      line-height: 18px
+      color: #000000
+  &__wait
+    width: 283px
+    margin-top: 23px
+    &-title
+      font-family: $main-font
+      font-style: normal
+      font-weight: normal
+      font-size: 18px
+      line-height: 23px
+      color: #000000
+      margin-bottom: 26px
+      margin-left: 37px
+    &-group
+      padding-left: 15px
+      font-family: $main-font
+      font-style: normal
+      font-weight: normal
+      font-size: 14px
+      line-height: 18px
+      color: #000000
+      label
+        display: block
+        margin-right: 6px
+        margin-bottom: 12px
+        .jq-radio
+          margin-right: 10px
+          border: 2px solid #E2C765
+          color: $red-color
+          background: none
+          display: inline-block
+        .jq-radio.checked .jq-radio__div
+          background: $red-color
+          width: 6px
+          height: 6px
+          margin: 3px 0 0 3px
+  &__contacts
+    width: 284px
+    margin-top: 20px
+    margin-bottom: 13px
+    label, input
+      display: block
+    label
+      padding-left: 29px
+      box-sizing: border-box
+      font-family: $main-font
+      font-style: normal
+      font-weight: normal
+      font-size: 16px
+      line-height: 21px
+      color: #000000
+      position: relative
+      input
+        width: 270px
+        font-family: $main-font
+        font-style: normal
+        font-weight: normal
+        font-size: 14px
+        line-height: 18px
+        color: #666666
+        border: 2px solid #E2C765
+        height: 45px
+        padding: 15px 0 17px 21px
+        box-sizing: border-box
+        margin-left: -16px
+      .jq-selectbox__select
+        width: 270px
+        font-family: $main-font
+        font-style: normal
+        font-weight: normal
+        font-size: 14px
+        line-height: 18px
+        color: #666666
+        border: 2px solid #E2C765
+        height: 45px
+        padding: 11px 0 17px 21px
+        box-sizing: border-box
+        margin-left: -16px
+        margin-bottom: 10px
+      .jq-selectbox__trigger-arrow:before
+        content: ""
+  &__adress
+    width: 284px
+    margin-bottom: 21px
+    label, textarea
+      display: block
+    label
+      width: 100%
+      padding-left: 29px
+      font-family: $main-font
+      font-style: normal
+      font-weight: normal
+      font-size: 15px
+      line-height: 19px
+      color: #000000
+      textarea
+        width: 270px
+        font-family: $main-font
+        font-style: normal
+        font-weight: normal
+        font-size: 9px
+        line-height: 12px
+        color: #666666
+        border: 2px solid #E2C765
+        height: 45px
+        padding: 9px 0 17px 21px
+        box-sizing: border-box
+        margin-left: -16px
+  &__important-block
+    width: 284px
+    display: flex
+    justify-content: flex-start
+    margin-left: 14px
+    &-text
+      width: 240px
+      font-family: $main-font
+      font-style: normal
+      font-weight: normal
+      font-size: 12px
+      line-height: 15px
+      color: rgba(0, 0, 0, 0.5)
+      margin-bottom: 14px
+    &-input
+      .jq-checkbox
+        margin-right: 7px
+        border: 2px solid #E2C765
+        color: $red-color
+        background: none
+        display: inline-block
+        box-sizing: border-box
+        border-radius: 0
+
+      .jq-checkbox.checked .jq-checkbox__div
+        border-bottom: 2px solid $red-color
+        border-left: 2px solid $red-color
+  &__btn
+    width: 280px
+    height: 74px
+    margin: 27px auto
+    background: $red-color
+    text-align: center
+    cursor: pointer
+    padding-top: 20px
+    a
+      font-family: $main-font
+      font-style: normal
+      font-weight: bold
+      font-size: 22px
+      line-height: 26px
+      color: #FFFFFF
+
+
+  &__text
+    width: 284px
+    font-family: $second-font
+    font-size: 18px
+    line-height: 25px
+    text-align: center
+    color: #000000
+    margin: 0 auto
+    padding-bottom: 20px
+
+.block-text-large
+  font-size: 14px
+  line-height: 18px
+  color: #000000

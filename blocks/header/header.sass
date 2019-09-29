@@ -1,0 +1,105 @@
+.header
+  max-width: 320px
+  height: 552px
+  @extend .gradient
+  &__container
+    @extend .container
+    height: 552px
+    position: relative
+  &__inner
+    width: 284px
+    position: absolute
+    height: 552px
+    z-index: 5
+    bottom: 0
+    rigt: 0
+    background-image: url("../images/header-women.png")
+    background-position: bottom right
+    background-repeat: no-repeat
+  &__annotation
+    width: 284px
+    margin-top: 8px
+    font-family: $main-font
+    font-style: normal
+    font-weight: 500
+    font-size: 5px
+    line-height: 6px
+    letter-spacing: 0.3em
+    color: #FFFFFF
+    opacity: 0.4
+    margin-bottom: 11px
+  &__logo
+    margin-bottom: 12px
+  &__title
+    width: 284px
+    position: relative
+    font-family: $second-font
+    font-style: normal
+    font-weight: normal
+    font-size: 24px
+    line-height: 27px
+    color: #FFFFFF
+    padding-bottom: 19px
+    margin-bottom: 17px
+    &:after
+      content: ""
+      position: absolute
+      width: 167px
+      height: 5px
+      background-color: $second-color
+      bottom: 0
+      left: 0
+
+  &__text
+    width: 176px
+    font-family: $main-font
+    font-style: normal
+    font-weight: 500
+    font-size: 14px
+    line-height: 16px
+    color: #FFFFFF
+    margin-bottom: 21px
+  &__btn
+    width: 166px
+    font-family: $main-font
+    font-style: normal
+    font-weight: bold
+    font-size: 12px
+    line-height: 14px
+    text-transform: uppercase
+    color: #FFFFFF
+    padding: 13px 17px 13px 13px
+    background: $red-color
+    box-shadow: 0px 0px 15px #DD9E23
+    margin-left: 1px
+    text-align: center
+    display: block
+  &__signature
+    width: 186px
+    height: 39px
+    float: right
+    background: rgba(0, 0, 0, 0.5)
+    padding: 13px 0
+    display: flex
+    justify-content: flex-start
+    margin-top: 103px
+    &:after
+      content: ""
+      clear: both
+    &-text
+      width: 144px
+      height: 13px
+      font-family: $main-font
+      font-style: italic
+      font-size: 7px
+      line-height: 9px
+      color: #FFFFFF
+    &-img
+      height: 55px
+      margin-top: -20px
+      img
+        height: 90%
+
+.lh-name
+  line-height: 33px
+
