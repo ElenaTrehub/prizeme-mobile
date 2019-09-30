@@ -1,22 +1,20 @@
 .header
-  height: 552px
+  width: 100%
   @extend .gradient
   &__container
     @extend .container
-    height: 552px
     position: relative
   &__inner
-    width: 302px
+    width: 98%
     position: absolute
-    height: 552px
     z-index: 5
     bottom: 0
-    rigt: 0
+    right: 0
     background-image: url("../images/header-women.png")
     background-position: bottom right
     background-repeat: no-repeat
   &__annotation
-    width: 284px
+    width: 90%
     margin-top: 8px
     font-family: $main-font
     font-style: normal
@@ -30,7 +28,6 @@
   &__logo
     margin-bottom: 12px
   &__title
-    width: 284px
     position: relative
     font-family: $second-font
     font-style: normal
@@ -43,14 +40,13 @@
     &:after
       content: ""
       position: absolute
-      width: 167px
+      width: 50%
       height: 5px
       background-color: $second-color
       bottom: 0
       left: 0
 
   &__text
-    width: 176px
     font-family: $main-font
     font-style: normal
     font-weight: 500
@@ -74,14 +70,15 @@
     text-align: center
     display: block
   &__signature
-    width: 186px
-    height: 39px
-    float: right
+    position: absolute
     background: rgba(0, 0, 0, 0.5)
     padding: 13px 0
     display: flex
     justify-content: flex-start
-    margin-top: 103px
+    bottom: 0
+    right: 0
+    width: 186px
+    height: 39px
     &:after
       content: ""
       clear: both
